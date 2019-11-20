@@ -10,5 +10,6 @@ class DocService {
   }
 }
 
+
 const Doc = new DocService();
 export default Doc;
