@@ -40,10 +40,7 @@ class GTSAForm extends Component {
     return (
       <div>
         <div className="container">
-          <p className="instructions">
-            please hover over fields to see input field and input values! Tasks
-            not completed due to limited time and office deadlines.....
-          </p>
+    
           <button className="btn download-btn" onClick={this.modalToggle}>
             Create PDF
           </button>
